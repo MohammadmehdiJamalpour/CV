@@ -1,8 +1,40 @@
-*,*::before,*::after{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+/* Html */
 html {
-    font-size: 62.5%;
-  }
+  font-size: 62.5%;
+  font-family: "Inter";
+}
+/* Container */
+.container {
+  background-color: rgb(200, 229, 252);
+  display: flex;
+  flex-direction: column;
+}
+/* Header */
+.header {
+  background-color: rgba(255, 0, 0, 0.534);
+}
+/*Main*/
+.main {
+  background-color: rgba(128, 128, 128, 0.598);
+  display: flex;
+}
+/* Main aside */
+.main__aside {
+  background-color: rgba(255, 192, 203, 0.648);
+  display: flex;
+  flex-direction: column;
+}
+/* Main body */
+.main__body {
+  background-color: rgba(0, 255, 255, 0.401);
+  flex-direction: column;
+  display: flex;
+}
