@@ -6,35 +6,56 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --box-shadow: 0px 0px 27px -15px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 0px 27px -15px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 0px 27px -15px rgba(0, 0, 0, 0.42);
+  --border-colors: #cecece2d;
+  --border-radius: 5px;
+  --color-white: white;
+}
 /* Html */
 html {
   font-size: 62.5%;
   font-family: "Inter";
 }
+body {
+  display: flex;
+  justify-content: center;
+}
 /* Container */
 .container {
-  background-color: rgb(200, 229, 252);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
+  max-width: 1000px;
+  margin-top: 3rem;
 }
 /* Header */
 .header {
-  background-color: rgba(255, 0, 0, 0.534);
+  background-color: rgb(255, 255, 255);
 }
 /*Main*/
 .main {
-  background-color: rgba(128, 128, 128, 0.598);
+  background-color: var(--color-white);
   display: flex;
 }
 /* Main aside */
 .main__aside {
-  background-color: rgba(255, 192, 203, 0.648);
+  background-color: var(--color-white);
   display: flex;
   flex-direction: column;
 }
 /* Main body */
 .main__body {
-  background-color: rgba(0, 255, 255, 0.401);
+  background-color: var(--color-white);
   flex-direction: column;
   display: flex;
+}
+
+/* Card */
+.card {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  border: 0.7px solid var(--border-colors);
 }
