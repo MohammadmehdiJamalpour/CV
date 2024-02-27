@@ -28,13 +28,14 @@ body {
   flex-direction: column;
   max-width: 1200px;
   margin-top: 3rem;
+  width: 60rem;
 }
 /* Header */
 .header {
   background-color: var(--color-white);
   display: flex;
   padding: 1rem;
-  width: 60rem;
+  
   align-items: center;
 }
 .profile-picture {
@@ -70,9 +71,22 @@ body {
   display: flex;
 }
 .about-me {
-  max-width: 70%;
+ padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
-
+.about-me-title{
+  color: #99A3B2;
+  font-weight: 400;
+  font-size: 1rem;
+  align-self: flex-start;
+}
+.border {
+    display:block;
+    width:100% ;
+    border-top: 1px solid #ccc;
+}
 /* Card */
 .card {
   box-shadow: var(--box-shadow);
