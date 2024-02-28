@@ -11,6 +11,7 @@
   --border-colors: #cecece98;
   --border-radius: 8px;
   --color-white: white;
+  --border-top:1px solid #ccc;
 }
 /* Html */
 html {
@@ -85,7 +86,7 @@ body {
 .border {
     display:block;
     width:100% ;
-    border-top: 1px solid #ccc;
+    border-top: var(--border-top);
 }
 /* Card */
 .card {
