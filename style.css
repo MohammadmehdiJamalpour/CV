@@ -11,7 +11,7 @@
   --border-colors: #cecece98;
   --border-radius: 8px;
   --color-white: white;
-  --border-top:1px solid #ccc;
+  --border-top: 1px solid #ccc;
 }
 /* Html */
 html {
@@ -36,21 +36,20 @@ body {
   background-color: var(--color-white);
   display: flex;
   padding: 1rem;
-  
+
   align-items: center;
 }
 .profile-picture {
   width: 4.3rem;
 }
-.information{
+.information {
   margin-left: 1rem;
 }
-.name{
+.name {
   font-size: 1.7rem;
   display: block;
-
 }
-.skill-field{
+.skill-field {
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -64,34 +63,40 @@ body {
   background-color: var(--color-white);
   display: flex;
   flex-direction: column;
+  margin-right: 1rem;
+  width: 30%;
 }
 /* Main body */
 .main__body {
   background-color: var(--color-white);
   flex-direction: column;
   display: flex;
+  width: 70%;
 }
-.about-me {
- padding: 1rem;
- display: flex;
- flex-direction: column;
- align-items: center;
+.about-me , .contact , .work-history , .tools , .education , .other{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.about-me-title{
-  color: #99A3B2;
+.about-me__title , .contact__title , .work-history__title , .other__title , .education__title , .tools__title {
+  color: #99a3b2;
   font-weight: 400;
   font-size: 1rem;
   align-self: flex-start;
+  margin-bottom: 0.9rem;
 }
 .border {
-    display:block;
-    width:100% ;
-    border-top: var(--border-top);
+  display: block;
+  width: 100%;
+  border-top: var(--border-top);
+  margin-bottom: 0.9rem;
 }
 /* Card */
 .card {
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   border: 0.7px solid var(--border-colors);
+  margin-bottom: 1rem;
 }
 /* Profile */
