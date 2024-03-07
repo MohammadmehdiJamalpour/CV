@@ -34,9 +34,7 @@ body {
 /* Header */
 .header {
   background-color: var(--color-white);
-  display: flex;
-  padding: 1rem;
-
+  display: flex; 
   align-items: center;
 }
 .profile-picture {
@@ -77,8 +75,9 @@ body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
+
 .about-me__title , .contact__title , .work-history__title , .other__title , .education__title , .tools__title {
   color: #99a3b2;
   font-weight: 400;
@@ -97,6 +96,13 @@ body {
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   border: 0.7px solid var(--border-colors);
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; 
+  padding: 1rem;
+}
+.tools__list{
+padding-left: 1.1rem;
+}
+.tools__item{
+  margin-bottom: 0.2rem
 }
 /* Profile */
