@@ -27,14 +27,13 @@ body {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  max-width: 1100px;
-  margin-top: 4rem;
- 
+  max-width: 130rem;
+  margin: 3rem 2rem;
 }
 /* Header */
 .header {
   background-color: var(--color-white);
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 .profile-picture {
@@ -71,13 +70,23 @@ body {
   display: flex;
   width: 70%;
 }
-.about-me , .contact , .work-history , .tools , .education , .other{
+.about-me,
+.contact,
+.work-history,
+.tools,
+.education,
+.other {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.about-me__title , .contact__title , .work-history__title , .other__title , .education__title , .tools__title {
+.about-me__title,
+.contact__title,
+.work-history__title,
+.other__title,
+.education__title,
+.tools__title {
   color: #99a3b2;
   font-weight: 400;
   font-size: 1.7rem;
@@ -90,22 +99,63 @@ body {
   border-top: var(--border-top);
   margin-bottom: 1.3rem;
 }
-.about-me__text{
-  font-size: 1.8rem;
+.about-me__text {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  font-weight: 500;
 }
 /* Card */
 .card {
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   border: 0.7px solid var(--border-colors);
-  margin-bottom: 1rem; 
+  margin-bottom: 1.5rem;
   padding: 1.5rem;
 }
-.tools__list{
-padding: 0 1.7rem;
+.tools__list {
+  padding: 0 1.7rem;
 }
-.tools__item{
+.tools__item {
   margin-bottom: 0.4rem;
-  font-size:1.7rem;
+  font-size: 1.7rem;
 }
 /* Profile */
+
+/* Responsive */
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 110rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 90rem;
+    margin: 3rem 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 60rem;
+    margin: 3rem 2rem;
+  }
+    .main {
+      flex-direction: column;
+    }
+    .main__aside,
+    .main__body {
+      width: 100%;
+    }
+    .main__aside {
+      order: 1;
+    }
+  }
+  .contact {
+    order: 3;
+  }
+
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 48rem;
+    margin: 3rem 2rem;
+  }
+}
