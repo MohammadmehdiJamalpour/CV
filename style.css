@@ -97,7 +97,7 @@ body {
   display: block;
   width: 100%;
   border-top: var(--border-top);
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.1rem;
 }
 .about-me__text {
   font-size: 1.7rem;
@@ -112,10 +112,10 @@ body {
   margin-bottom: 1.5rem;
   padding: 1.5rem;
 }
-.tools__list {
+.tools__list,.educations__items {
   padding: 0 1.7rem;
 }
-.tools__item {
+.tools__item,.educations__item {
   margin-bottom: 0.4rem;
   font-size: 1.7rem;
 }
@@ -148,9 +148,9 @@ body {
     .main__aside {
       order: 1;
     }
-  }
-  .contact {
-    order: 3;
+    .contact {
+      order: 3;
+    }
   }
 
 @media screen and (max-width: 640px) {
