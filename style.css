@@ -12,6 +12,7 @@
   --border-radius: 8px;
   --color-white: white;
   --border-top: 1px solid #ccc;
+  --title-color: #99a3b2;
 }
 /* Html */
 html {
@@ -87,7 +88,7 @@ body {
 .other__title,
 .education__title,
 .tools__title {
-  color: #99a3b2;
+  color: var(--title-color);
   font-weight: 400;
   font-size: 1.7rem;
   align-self: flex-start;
@@ -104,18 +105,37 @@ body {
   line-height: 2.5rem;
   font-weight: 500;
 }
+.educations{
+  padding-left: rem;
+}
+.educations__items,.tools__items{
+  
+  margin-left: 1rem;
+  
+}
+.education__field{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.education__degree {
+  color: var(--title-color);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
 /* Card */
 .card {
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   border: 0.7px solid var(--border-colors);
   margin-bottom: 1.5rem;
-  padding: 1.5rem;
+  padding: 2.2rem;
 }
-.tools__list,.educations__items {
+.tools__list,
+.educations__items {
   padding: 0 1.7rem;
 }
-.tools__item,.educations__item {
+.tools__item,
+.educations__item {
   margin-bottom: 0.4rem;
   font-size: 1.7rem;
 }
@@ -138,20 +158,20 @@ body {
     max-width: 60rem;
     margin: 3rem 2rem;
   }
-    .main {
-      flex-direction: column;
-    }
-    .main__aside,
-    .main__body {
-      width: 100%;
-    }
-    .main__aside {
-      order: 1;
-    }
-    .contact {
-      order: 3;
-    }
+  .main {
+    flex-direction: column;
   }
+  .main__aside,
+  .main__body {
+    width: 100%;
+  }
+  .main__aside {
+    order: 1;
+  }
+  .contact {
+    order: 3;
+  }
+}
 
 @media screen and (max-width: 640px) {
   .container {
