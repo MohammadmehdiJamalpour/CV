@@ -122,6 +122,13 @@ body {
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
+.list {
+  padding: 0 1.7rem;
+}
+.item {
+  margin-bottom: 0.4rem;
+  font-size: 1.7rem;
+}
 /* Card */
 .card {
   box-shadow: var(--box-shadow);
@@ -129,15 +136,6 @@ body {
   border: 0.7px solid var(--border-colors);
   margin-bottom: 1.5rem;
   padding: 2.2rem;
-}
-.tools__list,
-.educations__items {
-  padding: 0 1.7rem;
-}
-.tools__item,
-.educations__item {
-  margin-bottom: 0.4rem;
-  font-size: 1.7rem;
 }
 /* Profile */
 
