@@ -32,10 +32,11 @@ body {
   margin: 3rem 2rem;
 }
 /* Header */
-.header {
+.header#header {
   background-color: var(--color-white);
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 .profile-picture {
   width: 9rem;
@@ -71,23 +72,9 @@ body {
   display: flex;
   width: 70%;
 }
-.about-me,
-.contact,
-.work-history,
-.tools,
-.education,
-.other {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 
-.about-me__title,
-.contact__title,
-.work-history__title,
-.other__title,
-.education__title,
-.tools__title {
+
+.title{
   color: var(--title-color);
   font-weight: 400;
   font-size: 1.7rem;
@@ -105,19 +92,14 @@ body {
   line-height: 2.5rem;
   font-weight: 500;
 }
-.educations{
-  padding-left: rem;
-}
-.educations__items,.tools__items{
-  
+.list {
   margin-left: 1rem;
-  
 }
-.education__field{
+.details__title {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
-.education__degree {
+.status {
   color: var(--title-color);
   font-size: 1.4rem;
   margin-bottom: 1rem;
@@ -136,6 +118,9 @@ body {
   border: 0.7px solid var(--border-colors);
   margin-bottom: 1.5rem;
   padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 /* Profile */
 
