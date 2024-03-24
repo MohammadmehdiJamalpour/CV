@@ -111,6 +111,16 @@ body {
   margin-bottom: 0.4rem;
   font-size: 1.7rem;
 }
+.work-history__part.part-one{
+  margin-bottom: 1rem;
+}
+.work-history__sub-title{
+  font-size: 1.7rem;
+  margin-bottom: 1.6rem;
+}
+.work-history ul{
+  margin-bottom: 1.5rem;
+}
 /* Card */
 .card {
   box-shadow: var(--box-shadow);
