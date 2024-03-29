@@ -235,6 +235,9 @@ body {
   .status{
     margin-bottom:0.6rem;
   }
+  .list {
+    margin-left: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -248,4 +251,11 @@ body {
   .skill-field{
     font-size: 1.8rem;
   }
+  .details__title{
+    font-size: 1.6rem;
+  }
+  .status{
+    font-size: 1.4rem;
+  }
+  
 }
