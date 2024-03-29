@@ -73,8 +73,7 @@ body {
   width: 70%;
 }
 
-
-.title{
+.title {
   color: var(--title-color);
   font-weight: 400;
   font-size: 1.7rem;
@@ -113,14 +112,14 @@ body {
   line-height: 2.3rem;
   font-weight: 500;
 }
-.work-history__part.part-one{
+.work-history__part.part-one {
   margin-bottom: 1rem;
 }
-.work-history__sub-title{
+.work-history__sub-title {
   font-size: 1.7rem;
   margin-bottom: 1.6rem;
 }
-.work-history ul{
+.work-history ul {
   margin-bottom: 1.5rem;
 }
 .information {
@@ -128,14 +127,15 @@ body {
   align-items: center;
   margin-bottom: 1rem;
 }
-.information p{
+.information__text {
   font-size: 1.6rem;
   font-weight: 500;
 }
-.information img{
+.information img {
   width: 3rem;
   margin-right: 1rem;
 }
+
 /* Card */
 
 .card {
@@ -161,6 +161,36 @@ body {
   .container {
     max-width: 90rem;
     margin: 3rem 2rem;
+  }
+  .name {
+    font-size: 2.8rem;
+  }
+  .skill-field {
+    font-size: 2.6;
+  }
+  .title {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+  }
+  .card {
+    padding: 1.6rem;
+  }
+  .information__text {
+    font-size: 1.4rem;
+  }
+  .item{
+    font-size: 1.4rem;
+  }
+  .details__title{
+    font-size: 1.8rem;
+    margin-bottom: 0.7rem;
+  }
+  .status{
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+  }
+  .about-me__text{
+    font-size: 1.6rem;
   }
 }
 @media screen and (max-width: 768px) {
