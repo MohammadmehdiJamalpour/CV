@@ -192,11 +192,22 @@ body {
   .about-me__text{
     font-size: 1.6rem;
   }
+
 }
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 60rem;
+    max-width: 68rem;
     margin: 3rem 2rem;
+  }
+  .contact{
+    margin-bottom: 0;
+  }
+  .card{
+    padding: 1.4rem;
+  }
+  
+  .title{
+    margin-bottom: 1rem;
   }
   .main {
     flex-direction: column;
@@ -211,11 +222,30 @@ body {
   .contact {
     order: 3;
   }
+  .name{
+    font-size: 2.7rem;
+  }
+  .skill-field{
+    font-size: 2.3rem;
+  }
+  .item{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .status{
+    margin-bottom:0.6rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
   .container {
     max-width: 48rem;
     margin: 3rem 2rem;
+  }
+  .name{
+    font-size: 2.2rem;
+  }
+  .skill-field{
+    font-size: 1.8rem;
   }
 }
