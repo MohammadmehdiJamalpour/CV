@@ -4,8 +4,12 @@ Live Demo
 Check out the live demo of the CV template here: CV Template Demo
 
 Features
+
 Clean and minimalistic design
+
 Easy customization using HTML and CSS
+
 Responsive layout for optimal viewing across various devices
+
 Sections for personal information, work experience, education, skills, and more
 
