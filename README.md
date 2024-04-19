@@ -1,15 +1,31 @@
-Welcome to the CV Template repository! This project provides a simple and elegantly designed HTML and CSS template for creating your own curriculum vitae.
+<p align="center">
+  <img src="https://mohammadmehdijamalpour.github.io/CV-template/banner.jpg" alt="Project Banner">
+</p>
 
-Live Demo
-Check out the live demo of the CV template here: CV Template Demo
+# CV Template
 
-Features
+A modern and minimal CV template for showcasing your skills and experience.
 
-Clean and minimalistic design
+## 📄 About
 
-Easy customization using HTML and CSS
+This project provides a professional CV template designed to impress potential employers or clients. Stand out with a clean layout and sleek design.
 
-Responsive layout for optimal viewing across various devices
+## 🚀 Getting Started
 
-Sections for personal information, work experience, education, skills, and more
+### Prerequisites
 
+- Web browser
+
+### Usage
+
+Clone the repository and open the `index.html` file in your web browser to view the CV template.
+
+## 🎨 Features
+
+- Responsive design
+- Easy to customize
+- Beautiful typography
+
+## 🤝 Contribution
+
+Contributions are welcome! If you have ideas on how to enhance the project, feel free to open an issue or submit a pull request.
