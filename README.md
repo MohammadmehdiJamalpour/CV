@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1115280542087249980/1230943390527389717/Cv-template-ss.png?ex=6635285e&is=6622b35e&hm=0eb6b584763a8e762882b41b2caae826eede406f6fe6f31dbc8666d73ccadd4e&" alt="Project Banner">
-</p>
+
 
 # CV Template
 
